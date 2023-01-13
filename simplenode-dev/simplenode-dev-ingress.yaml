@@ -4,7 +4,8 @@ metadata:
   name: simplenode
 spec:
   rules:
-    - http:
+    - host: simplenode-dev.domain.placeholder
+      http:
         paths:
           - path: /
             pathType: Prefix
