@@ -4,8 +4,7 @@ metadata:
   name: simplenode
 spec:
   rules:
-    - host: sai.apigw-aw-us.webmethods-dev.io
-      http:
+    - http:
         paths:
           - path: /
             pathType: Prefix
@@ -13,4 +12,4 @@ spec:
               service:
                 name:  simplenode
                 port:
-                  number: 80
+                  number: 81
