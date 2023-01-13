@@ -44,7 +44,7 @@ spec:
                         }`
             }
             console.log(body)
-            let resp = await fetch("https://hooks.slack.com/services/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" + data.slack_hook, {
+            let resp = await fetch("https://hooks.slack.com/services/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" + data.slack_hook, {
                 method: "POST",
                 body,
             });
