@@ -4,8 +4,7 @@ metadata:
   name: simplenode
 spec:
   rules:
-    - host: 20.232.250.103
-      http:
+    - http:
         paths:
           - path: /
             pathType: Prefix
