@@ -4,7 +4,7 @@ metadata:
   name: simplenode
 spec:
   rules:
-    - host: simplenode-dev.domain.placeholder
+    - host: sai.apigw-aw-us.webmethods-dev.io
       http:
         paths:
           - path: /
